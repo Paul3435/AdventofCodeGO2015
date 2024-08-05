@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	dat, err := os.ReadFile("aoc.txt")
+	dat, err := os.ReadFile("day1.txt")
 	check(err)
 
 	var santaFloor int
