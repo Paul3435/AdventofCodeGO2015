@@ -36,7 +36,8 @@ func main() {
 		w := intSlice[1] //always the second smallest
 		h := intSlice[2]
 
-		totalPaper += 3*l*w + 2*w*h + 2*h*l
+		//totalPaper += 3*l*w + 2*w*h + 2*h*l
+		totalPaper += 2*l + 2*w + l*w*h
 	}
 
 	if err := scanner.Err(); err != nil {
